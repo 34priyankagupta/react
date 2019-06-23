@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+
+/* FROM HERE */
+
+.containerBox {
+  display: flex;
+  justify-content: center;
+  background: #f9f4f4
+}
+
+.appBarSpecial {
+  display: flex;
+  justify-content: space-between;
+}
+
+.signupSpecific {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 91vh;
+}
+
+.sigupFielSpecific {
+  width: 48%
+}
+
+.hrSpecific {
+  border-color: #8c8b8b21;
+}
+
+.namefieldSpecial {
+  display: flex;
+  justify-content: space-between;
+}
+
+.linkButtons {
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.btnOverridingStyles {
+  width: 110px;
+}
+
+.justyingEndNavbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.borderingStyle {
+  border: 1px solid gray;
+  padding: 2px;
+  margin: 2px;
+}
+
+.btnText {
+  font-size: 90%;
+}
+
+.emptyDataLiner {
+  content: " ";
+  display: block;
+  background: lightblue;
+  height: 4px;
+}
+
+.titleStyles,
+.contentStyle {
+  font-size: 0.85em;
+  font-weight: 700;
+  margin: 5px
+}
+
+.contentStyle {
+  font-weight: 100;
+}
+
+.circumingNumber {
+  border-radius: 50%;
+  border: 1px solid #dcd9d9;
+  padding: 50px;
+}
+
+.titleSpace {
+  margin: 3px 0px 3px 20px;
+  color: #098e14;;
+  text-transform: capitalize;
+  font-weight: 600;
+}
